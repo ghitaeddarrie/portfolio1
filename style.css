@@ -269,13 +269,14 @@ section {
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  margin-top: 25px;
 }
 
 .about-containers,
@@ -291,6 +292,17 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+}
+
+.details-container1 {
+  padding: 0.5rem;
+  /* flex: 1; */
+  width: 200px;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
 .details-container {
